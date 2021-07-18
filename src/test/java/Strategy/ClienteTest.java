@@ -14,12 +14,6 @@ public class ClienteTest {
         assertEquals(300.0f, cliente.getConta());
     }
 
-    @Test
-    void adicionaOutroVooEconomico() {
-        Cliente cliente = new Cliente();
-        cliente.reservaVooEconomico(300, valor);
-        assertEquals(600.0f, cliente.getConta());
-    }
 
     @Test
     void adicionaVooExecutivo() {
